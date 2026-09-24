@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlightTalk</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="airline">
+  <div id="app">
+    <section id="gate" class="gate">
+      <div class="gate-bg"></div>
+      <div class="gate-card">
+        <p class="eyebrow">Passenger cabin</p>
+        <h1>FlightTalk</h1>
+
+        <div id="scanStep">
+          <div class="scan-intro">
+            <h2>Boarding pass</h2>
+            <p class="lede">Take a photo or upload your boarding pass to get started.</p>
+          </div>
+
+          <div class="ocr-box scan-box">
+            <div class="scan-icon">✦</div>
+            <strong>Scan your boarding pass</strong>
+            <p>FlightTalk reads the boarding-pass details locally. Flight and seat are shown as read-only; if they look wrong, rescan the boarding pass.</p>
+            <label class="text-btn scan-btn">
+              Take photo / Upload pass
+              <input id="ocrFile" type="file" accept="image/*" capture="environment" hidden />
+            </label>
+            <span id="ocrStatus" class="ocr-status"></span>
+          </div>
+
+          <p class="scan-note">Your boarding-pass image is processed locally for this step. It is not checked against an airline manifest.</p>
+        </div>
+
+        <form id="joinForm" class="hidden">
+          <div id="detailsStep">
+            <div class="step-head">
+              <div>
+                <p class="eyebrow">Step 2</p>
+                <h2>Confirm boarding details</h2>
+              </div>
+              <button id="rescanBtn" class="ghost" type="button">Rescan</button>
+            </div>
+
+            <div class="preview-grid">
+              <div><span>Flight</span><strong id="flightDisplay">—</strong></div>
+              <div><span>Seat</span><strong id="seatDisplay">—</strong></div>
+            </div>
+
+            <input id="flight" type="hidden" />
+            <input id="seat" type="hidden" />
+
+            <p class="hint">These details were read from your boarding pass and cannot be edited. If anything looks wrong, please rescan the boarding pass.</p>
+
+            <button id="detailsContinue" class="primary" type="button">Confirm details</button>
+            <p id="joinError" class="error"></p>
+          </div>
+
+          <div id="nameStep" class="hidden">
+            <div class="step-head">
+              <div>
+                <p class="eyebrow">Step 3</p>
+                <h2>Choose your display name</h2>
+              </div>
+            </div>
+
+            <label>
+              <span>Display name · up to 32 characters</span>
+              <input id="displayName" name="displayName" maxlength="32" minlength="1" required placeholder="Choose a nickname" autocomplete="off" />
+            </label>
+            <p class="hint">For your privacy, please avoid entering your full real name. A shortened name or nickname is recommended.</p>
+
+            <div class="card suggestion-card">
+              <div>
+                <span>Safer suggestion</span>
+                <strong id="nameSuggestion">—</strong>
+              </div>
+              <button id="useSuggestion" class="ghost" type="button">Use suggestion</button>
+            </div>
+
+            <label class="ack">
+              <input id="nameAck" type="checkbox" />
+              <span class="checkmark" aria-hidden="true"></span>
+              <span class="ack-text">I understand that this display name may be visible to other passengers.</span>
+            </label>
+
+            <div id="fullNameWarning" class="warning hidden">
+              <strong>Privacy warning</strong>
+              <p>You appear to be using a full or long name. For your own privacy, a nickname or shortened name is recommended.</p>
+              <label class="ack">
+                <input id="fullNameAck" type="checkbox" />
+                <span class="checkmark" aria-hidden="true"></span>
+                <span class="ack-text">I understand that I chose this name and that it may be visible to other passengers.</span>
+              </label>
+            </div>
+
+            <div class="row">
+              <button id="nameBack" class="ghost" type="button">Back</button>
+              <button class="primary" type="submit">Review &amp; Continue</button>
+            </div>
+            <p id="nameError" class="error"></p>
+          </div>
+        </form>
+
+        <div id="boardingPreview" class="modal hidden">
+          <div class="modal-card preview-card">
+            <p class="eyebrow">Step 4 · Final confirmation</p>
+            <h3>Ready to enter FlightTalk?</h3>
+            <p class="hint">Please confirm the details below before entering the cabin.</p>
+            <div class="preview-grid">
+              <div><span>Flight</span><strong id="previewFlight">—</strong></div>
+              <div><span>Seat</span><strong id="previewSeat">—</strong></div>
+              <div><span>Display name</span><strong id="previewDisplayName">—</strong></div>
+            </div>
+            <div class="privacy-note">
+              <strong>Privacy reminder</strong>
+              <p>Your display name may be visible to other passengers in FlightTalk. Do not share your full real name unless you are comfortable with that.</p>
+            </div>
+            <div class="row">
+              <button class="ghost" type="button" id="previewBack">Back</button>
+              <button class="primary" type="button" id="previewContinue">I Understand — Enter FlightTalk</button>
+            </div>
+          </div>
+        </div>
+</section>
+
+    <div id="boardingPreview" class="modal hidden">
+      <div class="modal-card preview-card">
+        <p class="eyebrow">Step 3 · Preview</p>
+        <h3>Ready to enter FlightTalk?</h3>
+        <p class="hint">Check what will be used for your passenger profile before you continue.</p>
+        <div class="preview-grid">
+          <div><span>Passenger</span><strong id="previewFullName">—</strong></div>
+          <div><span>Flight</span><strong id="previewFlight">—</strong></div>
+          <div><span>Seat</span><strong id="previewSeat">—</strong></div>
+          <div><span>Display name</span><strong id="previewDisplayName">—</strong></div>
+        </div>
+        <div class="row">
+          <button class="ghost" type="button" id="previewBack">Edit</button>
+          <button class="primary" type="button" id="previewContinue">Continue to FlightTalk</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="cabin" class="cabin hidden">
+      <aside class="rail">
+        <div class="brand">
+          <span class="mark"></span>
+          <div>
+            <strong>FlightTalk</strong>
+            <small>Airline cabin</small>
+          </div>
+        </div>
+        <div class="me">
+          <div class="avatar" id="meAvatar">FT</div>
+          <div>
+            <strong id="meName">—</strong>
+            <small id="meMeta">cabin</small>
+          </div>
+        </div>
+        <nav class="nav">
+          <button class="nav-btn active" data-view="lobby" type="button">Cabin chat</button>
+          <button class="nav-btn" data-view="people" type="button">Passengers</button>
+          <button class="nav-btn" data-view="rooms" type="button">Rooms</button>
+          <button class="nav-btn" data-view="files" type="button">Files</button>
+          <button class="nav-btn" data-view="games" type="button">Games</button>
+        </nav>
+        <div class="toggles">
+          <label class="switch"><input id="openToChat" type="checkbox" /><span>Open to chat</span></label>
+          <label class="switch"><input id="dnd" type="checkbox" /><span>Do not disturb</span></label>
+        </div>
+        <p class="legal">No automatic seatmate suggestions. Discovery is opt-in. Display name is the first 3 characters.</p>
+      </aside>
+      <main class="stage">
+        <header class="top">
+          <div>
+            <h2 id="viewTitle">Cabin chat</h2>
+            <p id="viewSub">Flight-only channel</p>
+          </div>
+          <div class="status-dot"><span></span> Cabin server</div>
+        </header>
+        <div id="view-lobby" class="view">
+          <div class="chat-shell">
+            <div id="messages" class="messages"></div>
+            <p id="typing" class="typing"></p>
+            <form id="composer" class="composer">
+              <input id="messageInput" maxlength="500" placeholder="Write a message" autocomplete="off" />
+              <button class="primary" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div id="view-people" class="view hidden"><div id="peopleList" class="list"></div></div>
+        <div id="view-rooms" class="view hidden">
+          <form id="roomForm" class="toolbar">
+            <input id="roomName" placeholder="Room name" maxlength="32" />
+            <select id="roomKind">
+              <option value="chat">Chat room</option>
+              <option value="game">Game room</option>
+            </select>
+            <select id="gameType">
+              <option value="tictactoe">Tic-Tac-Toe</option>
+              <option value="connectfour">Connect Four</option>
+              <option value="ludo">Ludo</option>
+            </select>
+            <button class="primary" type="submit">Create</button>
+          </form>
+          <div id="roomsList" class="list"></div>
+          <div id="roomPanel" class="panel hidden"></div>
+        </div>
+        <div id="view-files" class="view hidden">
+          <form id="fileForm" class="toolbar">
+            <input id="fileInput" type="file" />
+            <button class="primary" type="submit">Share file</button>
+            <span id="fileProgress"></span>
+          </form>
+          <p class="hint">Temporary cabin files. Metadata in SQLite, bytes on disk.</p>
+          <div id="filesList" class="list"></div>
+        </div>
+        <div id="view-games" class="view hidden">
+          <div id="gameLobby" class="list"></div>
+          <div id="gameBoard" class="game-board hidden"></div>
+        </div>
+      </main>
+    </section>
+  </div>
+  <div id="modal" class="modal hidden">
+    <div class="modal-card">
+      <h3>Report passenger</h3>
+      <form id="reportForm">
+        <select id="reportReason">
+          <option value="harassment">Harassment</option>
+          <option value="spam">Spam</option>
+          <option value="inappropriate">Inappropriate</option>
+          <option value="other">Other</option>
+        </select>
+        <textarea id="reportDetails" maxlength="280" placeholder="Optional details"></textarea>
+        <div class="row">
+          <button class="ghost" type="button" id="modalCancel">Cancel</button>
+          <button class="primary" type="submit">Submit report</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/vendor/tesseract/dist/tesseract.min.js"></script>
+  <script src="/js/core.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
