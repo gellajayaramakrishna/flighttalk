@@ -1,22 +1,30 @@
 {
   "name": "flighttalk",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Offline-first passenger communication and social-entertainment platform",
+  "description": "Offline cabin social platform: chat, games and watch-together over aircraft Wi-Fi, with no internet",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
-    "dev": "node server/index.js"
+    "dev": "node server/index.js",
+    "cert": "bash scripts/make-cert.sh",
+    "test": "node --test \"test/*.test.js\"",
+    "bench:passes": "python3 bench/make_passes.py --count 100 --seed 23 --out bench/passes && python3 bench/make_passes.py --count 100 --seed 29 --text-only --out bench/passes_text && node bench/scan-accuracy.js bench/passes bench/passes_text",
+    "bench:load": "node bench/load-test.js",
+    "bench:bots": "node bench/bot-strength.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "dependencies": {
-    "@tesseract.js-data/eng": "^1.0.0",
     "better-sqlite3": "^13.0.3",
     "express": "^5.2.1",
     "multer": "^2.4.0",
     "socket.io": "^4.8.3",
-    "tesseract.js": "^7.0.0"
+    "tesseract.js": "^7.0.0",
+    "zxing-wasm": "^3.1.6"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
   }
 }

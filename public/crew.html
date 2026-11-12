@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlightTalk · Crew console</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/crew.css" />
+</head>
+<body>
+  <section id="login" class="gate">
+    <div class="gate-bg"></div>
+    <form id="loginForm" class="gate-card">
+      <p class="eyebrow">Cabin crew only</p>
+      <h1>Crew console</h1>
+      <label class="field"><span>Crew PIN (shown in the server console)</span>
+        <input id="pin" type="password" inputmode="numeric" autocomplete="off" required />
+      </label>
+      <button class="primary" type="submit">Sign in</button>
+      <p id="loginError" class="error"></p>
+    </form>
+  </section>
+
+  <section id="console" class="crew hidden">
+    <header class="crew-top">
+      <div><p class="eyebrow">FlightTalk crew console</p><h2 id="flightTitle">No flight set</h2></div>
+      <div class="status-dot" id="conn"><span></span><em>Live</em></div>
+    </header>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="crew-grid">
+      <div class="panel">
+        <h3>Cabin controls</h3>
+        <form id="flightForm" class="row">
+          <input id="flightLock" placeholder="Flight number, e.g. AI865" maxlength="8" />
+          <button class="ghost" type="submit">Lock to flight</button>
+        </form>
+        <p class="hint">When set, only boarding passes for this flight (and today's date) can join.</p>
+        <label class="switch big"><input id="quietMode" type="checkbox" /><span><b>Quiet mode</b> — pause all passenger chat, requests and games (turbulence, safety briefing, emergencies)</span></label>
+        <h3>Announcement</h3>
+        <form id="announceForm" class="col-form">
+          <textarea id="announceText" maxlength="300" placeholder="e.g. We'll begin our descent in 20 minutes."></textarea>
+          <div class="row">
+            <select id="announceLevel"><option value="info">Information</option><option value="safety">Safety notice</option></select>
+            <button class="primary" type="submit">Broadcast</button>
+            <button class="ghost" type="button" id="clearAnnounce">Clear banner</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h3>Live alerts</h3>
+        <div id="alerts" class="alerts"><p class="empty">Nothing yet.</p></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Open reports</h3>
+      <div id="reports"></div>
+    </div>
+
+    <div class="panel">
+      <div class="row spread"><h3>Passengers</h3><input id="search" placeholder="Search seat or name" /></div>
+      <div class="table-wrap"><table id="passengers"></table></div>
+      <p class="hint">"Release seat" fixes a seat that someone else claimed first: check the passenger's real boarding pass, release the seat, and ask them to scan again.</p>
+    </div>
+
+    <div class="panel">
+      <h3>Audit log</h3>
+      <div id="audit" class="audit"></div>
+    </div>
+
+    <div class="panel danger-zone">
+      <h3>End of flight</h3>
+      <p class="hint">Erases every passenger profile, message, file and report on this aircraft and disconnects everyone. Use after arrival.</p>
+      <button id="endFlight" class="ghost danger" type="button">End flight &amp; erase all data</button>
+    </div>
+  </section>
+
+  <div id="toasts" class="toasts"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/crew.js"></script>
+</body>
+</html>

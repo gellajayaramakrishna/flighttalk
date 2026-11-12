@@ -1,0 +1,80 @@
+[
+  {
+    "type": "tictactoe",
+    "level": "hard",
+    "vs": "random",
+    "games": 1000,
+    "win": 863,
+    "loss": 0,
+    "draw": 137,
+    "winRate": "86.3%",
+    "lossRate": "0.0%",
+    "medianMoveMs": 0.19,
+    "p95MoveMs": 83.5
+  },
+  {
+    "type": "tictactoe",
+    "level": "easy",
+    "vs": "random",
+    "games": 1000,
+    "win": 707,
+    "loss": 173,
+    "draw": 120,
+    "winRate": "70.7%",
+    "lossRate": "17.3%",
+    "medianMoveMs": 0,
+    "p95MoveMs": 81.18
+  },
+  {
+    "type": "connectfour",
+    "level": "hard",
+    "vs": "random",
+    "games": 200,
+    "win": 200,
+    "loss": 0,
+    "draw": 0,
+    "winRate": "100.0%",
+    "lossRate": "0.0%",
+    "medianMoveMs": 49.61,
+    "p95MoveMs": 125.74
+  },
+  {
+    "type": "connectfour",
+    "level": "hard",
+    "vs": "easy",
+    "games": 100,
+    "win": 91,
+    "loss": 5,
+    "draw": 4,
+    "winRate": "91.0%",
+    "lossRate": "5.0%",
+    "medianMoveMs": 46.16,
+    "p95MoveMs": 137.99
+  },
+  {
+    "type": "ludo",
+    "level": "hard",
+    "vs": "random",
+    "games": 300,
+    "win": 277,
+    "loss": 23,
+    "draw": 0,
+    "winRate": "92.3%",
+    "lossRate": "7.7%",
+    "medianMoveMs": 0,
+    "p95MoveMs": 0
+  },
+  {
+    "type": "ludo",
+    "level": "hard",
+    "vs": "easy",
+    "games": 300,
+    "win": 205,
+    "loss": 95,
+    "draw": 0,
+    "winRate": "68.3%",
+    "lossRate": "31.7%",
+    "medianMoveMs": 0,
+    "p95MoveMs": 0
+  }
+]

@@ -1,0 +1,8 @@
+node_modules/
+data/
+bench/passes/
+bench/passes_text/
+.DS_Store
+*.log
+eng.traineddata
+__pycache__/

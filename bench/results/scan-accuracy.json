@@ -1,0 +1,5154 @@
+{
+ "/home/claude/work/heldout_bc": [
+  {
+   "file": "pass_000.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 56,
+   "ocrMs": 500
+  },
+  {
+   "file": "pass_001.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 32,
+   "ocrMs": 524
+  },
+  {
+   "file": "pass_002.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 26,
+   "ocrMs": 544
+  },
+  {
+   "file": "pass_003.jpg",
+   "quality": "poor",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 12,
+   "ocrMs": 348
+  },
+  {
+   "file": "pass_004.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 15,
+   "ocrMs": 340
+  },
+  {
+   "file": "pass_005.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 22,
+   "ocrMs": 671
+  },
+  {
+   "file": "pass_006.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 20,
+   "ocrMs": 452
+  },
+  {
+   "file": "pass_007.jpg",
+   "quality": "poor",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 12,
+   "ocrMs": 391
+  },
+  {
+   "file": "pass_008.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 323
+  },
+  {
+   "file": "pass_009.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 24,
+   "ocrMs": 557
+  },
+  {
+   "file": "pass_010.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 13,
+   "ocrMs": 544
+  },
+  {
+   "file": "pass_011.jpg",
+   "quality": "poor",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 18,
+   "ocrMs": 316
+  },
+  {
+   "file": "pass_012.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 363
+  },
+  {
+   "file": "pass_013.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 468
+  },
+  {
+   "file": "pass_014.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 21,
+   "ocrMs": 508
+  },
+  {
+   "file": "pass_015.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 14,
+   "ocrMs": 276
+  },
+  {
+   "file": "pass_016.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 309
+  },
+  {
+   "file": "pass_017.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 524
+  },
+  {
+   "file": "pass_018.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 20,
+   "ocrMs": 532
+  },
+  {
+   "file": "pass_019.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 17,
+   "ocrMs": 469
+  },
+  {
+   "file": "pass_020.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 347
+  },
+  {
+   "file": "pass_021.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 18,
+   "ocrMs": 652
+  },
+  {
+   "file": "pass_022.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 28,
+   "ocrMs": 277
+  },
+  {
+   "file": "pass_023.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 15,
+   "ocrMs": 371
+  },
+  {
+   "file": "pass_024.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 18,
+   "ocrMs": 347
+  },
+  {
+   "file": "pass_025.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 22,
+   "ocrMs": 597
+  },
+  {
+   "file": "pass_026.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 635
+  },
+  {
+   "file": "pass_027.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 9,
+   "ocrMs": 361
+  },
+  {
+   "file": "pass_028.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 19,
+   "ocrMs": 368
+  },
+  {
+   "file": "pass_029.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": false,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 470
+  },
+  {
+   "file": "pass_030.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 18,
+   "ocrMs": 602
+  },
+  {
+   "file": "pass_031.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 15,
+   "ocrMs": 244
+  },
+  {
+   "file": "pass_032.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 15,
+   "ocrMs": 312
+  },
+  {
+   "file": "pass_033.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 524
+  },
+  {
+   "file": "pass_034.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 543
+  },
+  {
+   "file": "pass_035.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 435
+  },
+  {
+   "file": "pass_036.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 15,
+   "ocrMs": 327
+  },
+  {
+   "file": "pass_037.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 19,
+   "ocrMs": 579
+  },
+  {
+   "file": "pass_038.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": false,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 24,
+   "ocrMs": 502
+  },
+  {
+   "file": "pass_039.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 13,
+   "ocrMs": 353
+  },
+  {
+   "file": "pass_040.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 19,
+   "ocrMs": 340
+  },
+  {
+   "file": "pass_041.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 19,
+   "ocrMs": 352
+  },
+  {
+   "file": "pass_042.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 23,
+   "ocrMs": 557
+  },
+  {
+   "file": "pass_043.jpg",
+   "quality": "poor",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": false,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 13,
+   "ocrMs": 289
+  },
+  {
+   "file": "pass_044.jpg",
+   "quality": "clean",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 12,
+   "ocrMs": 263
+  },
+  {
+   "file": "pass_045.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 22,
+   "ocrMs": 425
+  },
+  {
+   "file": "pass_046.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 20,
+   "ocrMs": 677
+  },
+  {
+   "file": "pass_047.jpg",
+   "quality": "poor",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 10,
+   "ocrMs": 280
+  },
+  {
+   "file": "pass_048.jpg",
+   "quality": "clean",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 19,
+   "ocrMs": 273
+  },
+  {
+   "file": "pass_049.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 323
+  },
+  {
+   "file": "pass_050.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 24,
+   "ocrMs": 570
+  },
+  {
+   "file": "pass_051.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 545
+  },
+  {
+   "file": "pass_052.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 24,
+   "ocrMs": 340
+  },
+  {
+   "file": "pass_053.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 21,
+   "ocrMs": 325
+  },
+  {
+   "file": "pass_054.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 20,
+   "ocrMs": 272
+  },
+  {
+   "file": "pass_055.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 17,
+   "ocrMs": 354
+  },
+  {
+   "file": "pass_056.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 331
+  },
+  {
+   "file": "pass_057.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 27,
+   "ocrMs": 629
+  },
+  {
+   "file": "pass_058.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 459
+  },
+  {
+   "file": "pass_059.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 14,
+   "ocrMs": 276
+  },
+  {
+   "file": "pass_060.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 23,
+   "ocrMs": 345
+  },
+  {
+   "file": "pass_061.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 22,
+   "ocrMs": 686
+  },
+  {
+   "file": "pass_062.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 19,
+   "ocrMs": 572
+  },
+  {
+   "file": "pass_063.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": false,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": false,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 16,
+   "ocrMs": 249
+  },
+  {
+   "file": "pass_064.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 19,
+   "ocrMs": 344
+  },
+  {
+   "file": "pass_065.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 22,
+   "ocrMs": 344
+  },
+  {
+   "file": "pass_066.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 15,
+   "ocrMs": 222
+  },
+  {
+   "file": "pass_067.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 13,
+   "ocrMs": 449
+  },
+  {
+   "file": "pass_068.jpg",
+   "quality": "clean",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 335
+  },
+  {
+   "file": "pass_069.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 15,
+   "ocrMs": 626
+  },
+  {
+   "file": "pass_070.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 547
+  },
+  {
+   "file": "pass_071.jpg",
+   "quality": "poor",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 20,
+   "ocrMs": 380
+  },
+  {
+   "file": "pass_072.jpg",
+   "quality": "clean",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 292
+  },
+  {
+   "file": "pass_073.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 20,
+   "ocrMs": 584
+  },
+  {
+   "file": "pass_074.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 604
+  },
+  {
+   "file": "pass_075.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 9,
+   "ocrMs": 317
+  },
+  {
+   "file": "pass_076.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 367
+  },
+  {
+   "file": "pass_077.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 23,
+   "ocrMs": 790
+  },
+  {
+   "file": "pass_078.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 26,
+   "ocrMs": 514
+  },
+  {
+   "file": "pass_079.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 21,
+   "ocrMs": 263
+  },
+  {
+   "file": "pass_080.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 341
+  },
+  {
+   "file": "pass_081.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 25,
+   "ocrMs": 315
+  },
+  {
+   "file": "pass_082.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 263
+  },
+  {
+   "file": "pass_083.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 13,
+   "ocrMs": 394
+  },
+  {
+   "file": "pass_084.jpg",
+   "quality": "clean",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 318
+  },
+  {
+   "file": "pass_085.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 495
+  },
+  {
+   "file": "pass_086.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 23,
+   "ocrMs": 419
+  },
+  {
+   "file": "pass_087.jpg",
+   "quality": "poor",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 10,
+   "ocrMs": 172
+  },
+  {
+   "file": "pass_088.jpg",
+   "quality": "clean",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 335
+  },
+  {
+   "file": "pass_089.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 35,
+   "ocrMs": 652
+  },
+  {
+   "file": "pass_090.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 360
+  },
+  {
+   "file": "pass_091.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 20,
+   "ocrMs": 399
+  },
+  {
+   "file": "pass_092.jpg",
+   "quality": "clean",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 14,
+   "ocrMs": 328
+  },
+  {
+   "file": "pass_093.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 18,
+   "ocrMs": 365
+  },
+  {
+   "file": "pass_094.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 31,
+   "ocrMs": 544
+  },
+  {
+   "file": "pass_095.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 24,
+   "ocrMs": 371
+  },
+  {
+   "file": "pass_096.jpg",
+   "quality": "clean",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 326
+  },
+  {
+   "file": "pass_097.jpg",
+   "quality": "photo",
+   "code": "qr",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 16,
+   "ocrMs": 306
+  },
+  {
+   "file": "pass_098.jpg",
+   "quality": "photo",
+   "code": "pdf417",
+   "barcode": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "barcode",
+   "barcodeMs": 17,
+   "ocrMs": 407
+  },
+  {
+   "file": "pass_099.jpg",
+   "quality": "poor",
+   "code": "pdf417",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 10,
+   "ocrMs": 364
+  }
+ ],
+ "/home/claude/work/heldout_text": [
+  {
+   "file": "pass_000.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 259
+  },
+  {
+   "file": "pass_001.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 559
+  },
+  {
+   "file": "pass_002.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 380
+  },
+  {
+   "file": "pass_003.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 395
+  },
+  {
+   "file": "pass_004.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 291
+  },
+  {
+   "file": "pass_005.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 578
+  },
+  {
+   "file": "pass_006.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 603
+  },
+  {
+   "file": "pass_007.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 263
+  },
+  {
+   "file": "pass_008.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 307
+  },
+  {
+   "file": "pass_009.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 338
+  },
+  {
+   "file": "pass_010.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 261
+  },
+  {
+   "file": "pass_011.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 318
+  },
+  {
+   "file": "pass_012.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 314
+  },
+  {
+   "file": "pass_013.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 490
+  },
+  {
+   "file": "pass_014.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 537
+  },
+  {
+   "file": "pass_015.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 325
+  },
+  {
+   "file": "pass_016.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 285
+  },
+  {
+   "file": "pass_017.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 531
+  },
+  {
+   "file": "pass_018.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 393
+  },
+  {
+   "file": "pass_019.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 290
+  },
+  {
+   "file": "pass_020.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 299
+  },
+  {
+   "file": "pass_021.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 645
+  },
+  {
+   "file": "pass_022.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 582
+  },
+  {
+   "file": "pass_023.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 252
+  },
+  {
+   "file": "pass_024.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 294
+  },
+  {
+   "file": "pass_025.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 499
+  },
+  {
+   "file": "pass_026.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 452
+  },
+  {
+   "file": "pass_027.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 367
+  },
+  {
+   "file": "pass_028.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 313
+  },
+  {
+   "file": "pass_029.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 534
+  },
+  {
+   "file": "pass_030.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 648
+  },
+  {
+   "file": "pass_031.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 333
+  },
+  {
+   "file": "pass_032.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 284
+  },
+  {
+   "file": "pass_033.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 503
+  },
+  {
+   "file": "pass_034.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 574
+  },
+  {
+   "file": "pass_035.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 154
+  },
+  {
+   "file": "pass_036.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 290
+  },
+  {
+   "file": "pass_037.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 713
+  },
+  {
+   "file": "pass_038.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 581
+  },
+  {
+   "file": "pass_039.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 474
+  },
+  {
+   "file": "pass_040.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 350
+  },
+  {
+   "file": "pass_041.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 611
+  },
+  {
+   "file": "pass_042.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 535
+  },
+  {
+   "file": "pass_043.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 298
+  },
+  {
+   "file": "pass_044.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 282
+  },
+  {
+   "file": "pass_045.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 529
+  },
+  {
+   "file": "pass_046.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 483
+  },
+  {
+   "file": "pass_047.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 172
+  },
+  {
+   "file": "pass_048.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 303
+  },
+  {
+   "file": "pass_049.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 533
+  },
+  {
+   "file": "pass_050.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 472
+  },
+  {
+   "file": "pass_051.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 416
+  },
+  {
+   "file": "pass_052.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 298
+  },
+  {
+   "file": "pass_053.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 467
+  },
+  {
+   "file": "pass_054.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 701
+  },
+  {
+   "file": "pass_055.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 352
+  },
+  {
+   "file": "pass_056.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 269
+  },
+  {
+   "file": "pass_057.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 520
+  },
+  {
+   "file": "pass_058.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 323
+  },
+  {
+   "file": "pass_059.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 332
+  },
+  {
+   "file": "pass_060.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 297
+  },
+  {
+   "file": "pass_061.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 280
+  },
+  {
+   "file": "pass_062.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 465
+  },
+  {
+   "file": "pass_063.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 298
+  },
+  {
+   "file": "pass_064.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 298
+  },
+  {
+   "file": "pass_065.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 295
+  },
+  {
+   "file": "pass_066.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 462
+  },
+  {
+   "file": "pass_067.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 443
+  },
+  {
+   "file": "pass_068.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 307
+  },
+  {
+   "file": "pass_069.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 577
+  },
+  {
+   "file": "pass_070.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 383
+  },
+  {
+   "file": "pass_071.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 246
+  },
+  {
+   "file": "pass_072.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 305
+  },
+  {
+   "file": "pass_073.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 345
+  },
+  {
+   "file": "pass_074.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 348
+  },
+  {
+   "file": "pass_075.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 326
+  },
+  {
+   "file": "pass_076.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 312
+  },
+  {
+   "file": "pass_077.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 688
+  },
+  {
+   "file": "pass_078.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 615
+  },
+  {
+   "file": "pass_079.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": false,
+    "seat": true,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 313
+  },
+  {
+   "file": "pass_080.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 397
+  },
+  {
+   "file": "pass_081.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 519
+  },
+  {
+   "file": "pass_082.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 542
+  },
+  {
+   "file": "pass_083.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 211
+  },
+  {
+   "file": "pass_084.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 298
+  },
+  {
+   "file": "pass_085.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 506
+  },
+  {
+   "file": "pass_086.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 628
+  },
+  {
+   "file": "pass_087.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 246
+  },
+  {
+   "file": "pass_088.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 340
+  },
+  {
+   "file": "pass_089.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 276
+  },
+  {
+   "file": "pass_090.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 514
+  },
+  {
+   "file": "pass_091.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 449
+  },
+  {
+   "file": "pass_092.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 288
+  },
+  {
+   "file": "pass_093.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 579
+  },
+  {
+   "file": "pass_094.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 500
+  },
+  {
+   "file": "pass_095.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 289
+  },
+  {
+   "file": "pass_096.jpg",
+   "quality": "clean",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 276
+  },
+  {
+   "file": "pass_097.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 475
+  },
+  {
+   "file": "pass_098.jpg",
+   "quality": "photo",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "legacy": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": true,
+    "name": true
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 252
+  },
+  {
+   "file": "pass_099.jpg",
+   "quality": "poor",
+   "code": "none",
+   "barcode": null,
+   "ocr": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "legacy": {
+    "flight": false,
+    "seat": false,
+    "name": false
+   },
+   "pipeline": {
+    "flight": true,
+    "seat": false,
+    "name": false
+   },
+   "source": "ocr",
+   "barcodeMs": 0,
+   "ocrMs": 307
+  }
+ ]
+}
